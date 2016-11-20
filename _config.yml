@@ -15,6 +15,12 @@ banner: 学而不思则罔，思而不学则殆。
 permalink: /:year/:month/:day/:title/
 paginate: 10
 
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+
+
+
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
 github_username: yueyue2007
@@ -27,9 +33,9 @@ FB:
   comments :
     provider : duoshuo
     duoshuo:
-        short_name : luoyan35714
-    disqus :
-        short_name : freudkang
+        short_name : 9506
+    #disqus :
+    #    short_name : freudkang
     # facebook :
     #   appid : 123
     #   num_posts: 5
